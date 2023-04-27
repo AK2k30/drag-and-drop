@@ -17,7 +17,8 @@ public class WebSecurityConfiguration implements WebMvcConfigurer {
                         "http://localhost:3000",
                         "http://127.0.0.1:5173/",
                         "http://localhost:5173/",
-                        "http://49.248.153.214:5174"
+                        "http://49.248.153.214:5174",
+                        "https://drop-and-go-frontend.vercel.app/"
                         )
                 .allowedHeaders("*")
                 .exposedHeaders(
